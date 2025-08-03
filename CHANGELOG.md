@@ -4,7 +4,7 @@ This file keeps a chronological record of all changes to this project.
 
 ---
 
-## [1.0.0] – 2025-08-02
+## [1.0.0] – 2025-08-04
 
 - First stable release of the application for local file scanning using the VirusTotal API
 - Implementation of a graphical user interface (GUI) with PySimpleGUI
