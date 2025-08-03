@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="virustotal_scanner_gui",
+    name="VirusTotal-File-Scanner",
     version="1.0.0",
     author="Thorsten Bylicki",
     author_email="bylicki@mail.de",
     description="A local GUI application for scanning files using the VirusTotal API",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/bylickilabs/virustotal-scanner",
+    url="https://github.com/bylickilabs/VirusTotal-File-Scanner",
     project_urls={
-        "Bug Tracker": "https://github.com/bylickilabs/virustotal-scanner/issues",
-        "Documentation": "https://github.com/bylickilabs/virustotal-scanner/wiki",
+        "Bug Tracker": "https://github.com/bylickilabs/VirusTotal-File-Scanner/issues",
+        "Documentation": "https://github.com/bylickilabs/VirusTotal-File-Scanner/wiki",
     },
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -35,7 +35,7 @@ setup(
     python_requires=">=3.8",
     entry_points={
         "console_scripts": [
-            "vt-scanner=virustotal_scanner_gui.app:main",
+            "vt-scanner=VirusTotal-File-Scanner.app:main",
         ],
     },
     package_data={
