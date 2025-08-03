@@ -1,4 +1,4 @@
-# 📝 TODO (English)
+# 📝 TODO
 
 ## Planned Features
 
