@@ -1,3 +1,5 @@
+|[![Ruff Linter](https://github.com/bylickilabs/VirusTotal-File-Scanner/actions/workflows/pylint.yml/badge.svg)](https://github.com/bylickilabs/VirusTotal-File-Scanner/actions/workflows/pylint.yml)|
+|---|
 # 🛡️ VirusTotal File Scanner
 
 ![Logo](/assets/logo.png)
