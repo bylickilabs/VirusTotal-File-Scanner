@@ -1,6 +1,6 @@
 # 🔐 Security Policy
 
-![Logo](/assets/logo.png)
+![Logo](/assets/security.png)
 
 <br>
 
