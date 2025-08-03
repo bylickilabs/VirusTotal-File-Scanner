@@ -1,0 +1,8 @@
+requests>=2.31.0
+python-dotenv>=1.0.1
+PySimpleGUI>=4.60.5
+tqdm>=4.66.1
+babel>=2.14.0
+
+# Linting / Dev Tools (optional, local)
+ruff>=0.4.4

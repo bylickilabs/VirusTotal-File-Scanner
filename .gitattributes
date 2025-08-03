@@ -1,0 +1,38 @@
+# Enforce LF line endings for all text files
+* text=auto eol=lf
+
+# Treat common binary file types
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.exe binary
+
+# Python-related files
+*.py linguist-language=Python
+
+# Markdown and documentation
+*.md text linguist-language=Markdown
+*.toml text
+*.yml text
+*.yaml text
+*.json text
+
+# Ignore linguist stats for asset directories
+assets/* linguist-vendored
+locale/* linguist-vendored
+config/* linguist-vendored
+
+# Shell and configuration files
+*.sh text eol=lf
+*.cfg text
+*.ini text
+
+# CSV/TSV logs or data
+*.csv text
+*.tsv text
+
+# Add UTF-8 encoding explicitly
+*.py text working-tree-encoding=UTF-8

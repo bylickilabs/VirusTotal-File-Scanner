@@ -1,0 +1,38 @@
+# Erzwinge LF-Zeilenumbrüche für alle Textdateien
+* text=auto eol=lf
+
+# Behandle gängige Binärdateitypen
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.exe binary
+
+# Python-bezogene Dateien
+*.py linguist-language=Python
+
+# Markdown und Dokumentation
+*.md text linguist-language=Markdown
+*.toml text
+*.yml text
+*.yaml text
+*.json text
+
+# Verzeichnisse von Statistiken ausschließen (z. B. Übersetzungen, Assets)
+assets/* linguist-vendored
+locale/* linguist-vendored
+config/* linguist-vendored
+
+# Shell- und Konfigurationsdateien
+*.sh text eol=lf
+*.cfg text
+*.ini text
+
+# CSV/TSV-Protokolle oder Daten
+*.csv text
+*.tsv text
+
+# UTF-8-Kodierung explizit setzen
+*.py text working-tree-encoding=UTF-8
